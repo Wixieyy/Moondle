@@ -3,5 +3,5 @@ function goToPlayPage() {
 }
 
 function goToAboutPage() {
-    window.location.href = "about.html";
+
 }

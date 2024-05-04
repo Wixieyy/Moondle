@@ -20,14 +20,11 @@ body {
     text-align: center;
 }
 
-#title {
-
-}
-
 #moondle {
     font-size: max(50px,4vw);
     /*background-color: red;*/
     margin: 0;
+    font-weight: bold;
 }
 
 #description {
