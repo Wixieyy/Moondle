@@ -85,6 +85,7 @@
     }
 
     .box {
+        display: none;
         border: 2px solid grey;
         height: 60px;
         width: 60px;
