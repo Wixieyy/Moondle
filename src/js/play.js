@@ -6,22 +6,29 @@ const uranus = ["Titania","Oberon","Umbriel","Ariel","Miranda","Puck"]
 const neptune = ["Triton","Proteus","Nereid","Larissa","Galatea","Despina"]
 const pluto = ["Charon","Hydra","Nix"]
 const planets = [earth, mars, jupiter, saturn, uranus, neptune, pluto];
-const boxes = document.querySelectorAll('.box');
-
+const box = document.querySelectorAll('.box');
+const boxes = document.querySelectorAll('.boxes');
+let selectedPlanet;
+let selectedMoon;
 start();
 
 function start() {
-    const selectedPlanet = planets[(Math.ceil(Math.random() * planets.length)) - 1];
-    const selectedMoon = selectedPlanet[(Math.ceil(Math.random() * selectedPlanet.length)) - 1]
+    selectedPlanet = planets[Math.floor(Math.random() * planets.length)];
+    selectedMoon = selectedPlanet[Math.floor(Math.random() * selectedPlanet.length)];
+    console.log(selectedMoon)
 
     for (let x = 0; x < selectedMoon.length * 6; x++) {
-        boxes[x].style.display = 'block'
+        box[x].style.display = 'block';
     }
 
+    boxes.forEach((box) => {
+        box.style.gridTemplateColumns = `repeat(${selectedMoon.length}, auto)`;
+    });
+
     window.addEventListener('keydown', function(event) {
-        for (const box of boxes) {
-            if (box.textContent === '') {
-                box.textContent = event.key;
+        for (const b of box) {
+            if (b.textContent === '') {
+                b.textContent = event.key;
                 break;
             }
         }
