@@ -16,21 +16,18 @@
     .fa-solid.fa-circle-half-stroke.fa-xl:hover {
         color: whitesmoke;
     }
-
     .fa-brands.fa-discord.fa-xl {
         color: rgba(114, 137, 218, 0.8);
     }
     .fa-brands.fa-discord.fa-xl:hover {
         color: #7289da;
     }
-
     .fa-brands.fa-github.fa-xl, .fa-solid.fa-envelope.fa-xl {
         color: rgba(234, 234, 234, 0.8);
     }
     .fa-brands.fa-github.fa-xl:hover, .fa-solid.fa-envelope.fa-xl:hover {
         color: #eaeaea;
     }
-
     .fa-brands.fa-stack-overflow.fa-xl {
         color: rgba(244, 127, 36, 0.8);
     }
