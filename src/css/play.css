@@ -1,110 +1,117 @@
-    body {
-        background-color: rgba(18, 18, 18, 0.95);
-    }
+@font-face {
+    font-family: 'DINPro-Bold';
+    src: url('../DINPro Bold.woff2') format('woff2');
+}
 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        height: 6.5vh;
-        background-color: rgb(23, 23, 23);
-    }
+* {
+    font-family: DINPro-Bold,sans-serif
+}
 
-    .fa-solid.fa-circle-half-stroke.fa-xl {
-        color: #bdbdbd;
-        cursor: pointer;
-    }
-    .fa-solid.fa-circle-half-stroke.fa-xl:hover {
-        color: whitesmoke;
-    }
-    .fa-brands.fa-discord.fa-xl {
-        color: rgba(114, 137, 218, 0.8);
-    }
-    .fa-brands.fa-discord.fa-xl:hover {
-        color: #7289da;
-    }
-    .fa-brands.fa-github.fa-xl, .fa-solid.fa-envelope.fa-xl {
-        color: rgba(234, 234, 234, 0.8);
-    }
-    .fa-brands.fa-github.fa-xl:hover, .fa-solid.fa-envelope.fa-xl:hover {
-        color: #eaeaea;
-    }
-    .fa-brands.fa-stack-overflow.fa-xl {
-        color: rgba(244, 127, 36, 0.8);
-    }
-    .fa-brands.fa-stack-overflow.fa-xl:hover {
-        color: #F47F24;
-    }
+body {
+    background-color: rgba(18, 18, 18, 0.95);
+}
 
-    .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 45vw;
-    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 6.5vh;
+    background-color: rgb(23, 23, 23);
+}
 
-    #logo {
-        font-size: clamp(25px,4vw,50px);
-        text-decoration: none;
-        color: whitesmoke;
-        font-family: "Times New Roman",sans-serif;
-    }
+.fa-solid.fa-circle-half-stroke.fa-xl {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+.fa-solid.fa-circle-half-stroke.fa-xl:hover {
+    color: whitesmoke;
+}
+.fa-brands.fa-discord.fa-xl {
+    color: rgba(114, 137, 218, 0.8);
+}
+.fa-brands.fa-discord.fa-xl:hover {
+    color: #7289da;
+}
+.fa-brands.fa-github.fa-xl, .fa-solid.fa-envelope.fa-xl {
+    color: rgba(234, 234, 234, 0.8);
+}
+.fa-brands.fa-github.fa-xl:hover, .fa-solid.fa-envelope.fa-xl:hover {
+    color: #eaeaea;
+}
+.fa-brands.fa-stack-overflow.fa-xl {
+    color: rgba(244, 127, 36, 0.8);
+}
+.fa-brands.fa-stack-overflow.fa-xl:hover {
+    color: #F47F24;
+}
 
-    .social-buttons {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 10px;
-    }
-    .social-buttons a {
-        padding-left: max(10px,1vw);
-        font-size: max(17.5px,1.1vw);
-    }
-    .social-buttons a:last-child {
-        margin-right: 1.5vw;
-    }
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45vw;
+}
 
-    hr {
-        border: 1px solid darkgray;
-    }
+#logo {
+    font-size: clamp(25px,4vw,50px);
+    text-decoration: none;
+    color: whitesmoke;
+}
 
-    .boxes {
-        display: grid;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        align-content: center;
-        grid-template-columns: none;
-        flex-grow: 1;
-        color: whitesmoke;
-        font-size: 55px;
-        margin-top: 70px;
-    }
+.social-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+.social-buttons a {
+    padding-left: max(10px,1vw);
+    font-size: max(17.5px,1.1vw);
+}
+.social-buttons a:last-child {
+    margin-right: 1.5vw;
+}
 
-    .box {
-        display: none;
-        border: 2px solid grey;
-        height: 60px;
-        width: 60px;
-        margin: 0.15vw;
-    }
+hr {
+    border: 1px solid darkgray;
+}
 
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        flex-shrink: 0;
-        text-align: center;
-        padding: 1vw;
-        color: whitesmoke;
-        font-family: Calibri,sans-serif;
-    }
+.boxes {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: none;
+    flex-grow: 1;
+    color: whitesmoke;
+    font-size: 55px;
+    margin-top: 70px;
+}
 
-    .footer a {
-        text-decoration: none;
-    }
+.box {
+    display: none;
+    border: 2px solid grey;
+    height: 60px;
+    width: 60px;
+    margin: 0.15vw;
+}
 
-    .footer a:visited,
-    .footer a:active,
-    .footer a:hover {
-        color: blue;
-    }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1vw;
+    color: whitesmoke;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:visited,
+.footer a:active,
+.footer a:hover {
+    color: blue;
+}
