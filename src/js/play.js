@@ -32,5 +32,9 @@ function start() {
                 break;
             }
         }
+        // const filledText = Array.from(box).map(b => b.textContent).join('');
+        // if (filledText === selectedMoon) {
+        //     box.forEach(b => b.style.backgroundColor = 'green');
+        // }
     });
 }

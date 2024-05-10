@@ -8,6 +8,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: rgba(18, 18, 18, 0.95);
 }
 
@@ -86,7 +89,6 @@ hr {
     flex-grow: 1;
     color: whitesmoke;
     font-size: 55px;
-    margin-top: 70px;
 }
 
 .box {
@@ -104,6 +106,7 @@ hr {
     text-align: center;
     padding: 1vw;
     color: whitesmoke;
+    margin-top: auto;
 }
 
 .footer a {
