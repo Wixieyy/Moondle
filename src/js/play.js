@@ -28,7 +28,7 @@ function start() {
     window.addEventListener('keydown', function(event) {
         for (const b of box) {
             if (b.textContent === '') {
-                b.textContent = event.key;
+                b.textContent = event.key.toUpperCase();
                 break;
             }
         }
