@@ -81,7 +81,8 @@ hr {
 #guess-title {
     color: whitesmoke;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5vh;
+    font-size: 3vw;
 }
 
 .boxes {
@@ -94,14 +95,14 @@ hr {
     grid-template-columns: none;
     flex-grow: 1;
     color: whitesmoke;
-    font-size: 55px;
+    font-size: 80px;
 }
 
 .box {
     display: none;
     border: 2px solid grey;
-    height: 60px;
-    width: 60px;
+    height: 90px;
+    width: 90px;
     margin: 0.15vw;
 }
 
