@@ -82,7 +82,7 @@ hr {
     color: whitesmoke;
     text-align: center;
     margin-top: 5vh;
-    font-size: 3vw;
+    font-size: max(50px,3vw);
 }
 
 .boxes {
